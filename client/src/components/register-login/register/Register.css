@@ -1,0 +1,58 @@
+form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+form > div {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 10px;
+}
+
+form > div label {
+  margin: 0;
+}
+
+form > div input {
+  padding: 3px 7px;
+}
+
+form > div span {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  font-size: 0.8rem;
+  color: red;
+}
+
+form .submit-button {
+  margin-top: 10px;
+  padding: 10px 70px;
+  background-color: transparent;
+  border: 1px solid black;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+form .submit-button:hover {
+  background-color: black;
+  color: white;
+}
+/*# sourceMappingURL=Register.css.map */

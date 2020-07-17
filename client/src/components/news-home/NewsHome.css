@@ -1,0 +1,48 @@
+.news-home {
+  width: 100%;
+}
+
+.news-home header {
+  width: 80%;
+  margin: 0px auto;
+  margin-top: 100px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.news-home header > div h1 {
+  font-size: 2.3rem;
+}
+
+.news-home header > div span {
+  display: block;
+  width: 500px;
+  height: 2px;
+  background: black;
+}
+
+.news-home header .utils i {
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.9);
+  cursor: pointer;
+  padding: 10px;
+}
+
+.news-home .container {
+  width: 70%;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.add-subscription input {
+  margin-left: 20px;
+}
+/*# sourceMappingURL=NewsHome.css.map */

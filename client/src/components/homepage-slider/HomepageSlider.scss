@@ -1,0 +1,26 @@
+.homepage-slider-container {
+    width: 100%;
+    height: 90vh;
+    .slider {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        .slick-list {
+            height: 100%;
+            .slick-track {
+            
+            }
+        }
+        .slick-arrow {
+            z-index: 200;
+            position: absolute;
+            font-size: 2rem;
+        }
+        .slick-prev {
+            left: 10px;
+        }
+        .slick-next {
+            right: 10px;
+        }
+    }
+}

@@ -1,0 +1,47 @@
+.news-home {
+    width: 100%;
+    header {
+        width: 80%;
+        margin: 0px auto;
+        margin-top: 100px;
+        position: relative;
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &>div {
+            h1 {
+                font-size: 2.3rem;
+            }
+            span {
+                display: block;
+                width: 500px;
+                height: 2px;
+                background: black;
+            }
+        }
+        .utils {
+            i {
+                font-size: 1.3rem;
+                color: rgba(0, 0, 0, 0.9);
+                cursor: pointer;
+                padding: 10px;
+            }
+        }
+    }
+    .container {
+        width: 70%;
+        margin: 30px auto;
+        text-align: center;
+        img {
+
+        }
+    }
+}
+
+.add-subscription {
+    input {
+        margin-left: 20px;
+    }
+}

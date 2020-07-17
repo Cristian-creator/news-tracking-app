@@ -1,0 +1,57 @@
+.navbar {
+  background: rgba(0, 0, 0, 0.9);
+  color: #bf360c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 100px;
+  position: relative;
+  max-height: 100px;
+}
+
+.navbar div:first-child {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.navbar .utils {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar .utils > p {
+  text-transform: capitalize;
+  cursor: pointer;
+  padding: 20px;
+  margin: 0px 10px;
+  font-size: 1.2rem;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.navbar .utils > p:hover {
+  color: rgba(0, 0, 0, 0.9);
+  background: #bf360c;
+}
+
+.navbar .wrapper {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 50;
+  opacity: 1;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+/*# sourceMappingURL=Navbar.css.map */

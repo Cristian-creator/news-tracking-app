@@ -1,0 +1,14 @@
+.news-item {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 30px 0px;
+    .journal {
+        border-right: 1px solid black;
+        padding: 10px 20px;
+        width: 250px;
+    }
+    .title {
+        padding: 10px 20px;
+    }
+}

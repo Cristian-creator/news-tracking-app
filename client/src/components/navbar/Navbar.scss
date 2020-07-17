@@ -1,0 +1,51 @@
+.navbar {
+    background: rgba(0, 0, 0, 0.9);
+    color: #bf360c;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 100px;
+
+    position: relative;
+    max-height: 100px;
+
+    div:first-child {
+        font-size: 1.3rem;
+        cursor: pointer;
+    }
+
+    .utils {
+        display: flex;
+        &>p {
+            text-transform: capitalize;
+            cursor: pointer;
+            padding: 20px;
+            margin: 0px 10px;
+
+            font-size: 1.2rem;
+            transition: all 0.3s linear;
+            &:hover {
+                color: rgba(0, 0, 0, 0.9);
+                background: #bf360c;
+            }
+        }
+    }
+    
+    .wrapper {
+        margin: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        // background: rgba(255, 255, 255, 0.2);
+        // background: rgba(191, 54, 12, 0.3);
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: 50;
+        opacity: 1;
+        transition: all 0.3s linear;
+    }
+}
+

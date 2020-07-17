@@ -1,0 +1,19 @@
+.news-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 30px 0px;
+}
+
+.news-item .journal {
+  border-right: 1px solid black;
+  padding: 10px 20px;
+  width: 250px;
+}
+
+.news-item .title {
+  padding: 10px 20px;
+}
+/*# sourceMappingURL=NewsItem.css.map */
